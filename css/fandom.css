@@ -1,0 +1,54 @@
+body {
+    background-color: #fdf9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #41148f, #38113e);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+main {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #6d28e3;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.fandoms {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(191, 11, 11, 0.05);
+}
+
+.fandoms ol {
+    font-size: 18px;
+    line-height: 1.7;
+    padding-left: 25px;
+}
+
+.fandoms li {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #3b2068;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

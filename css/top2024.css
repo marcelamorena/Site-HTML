@@ -1,0 +1,103 @@
+/* Estilos gerais */
+body {
+    background-color: #f4f6fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #101010, #3f51b5);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteúdo principal */
+main {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #070a19;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* Tabela de plataformas */
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+caption {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 15px;
+    color: #17288a;
+}
+
+thead {
+    background: linear-gradient(to right, #1d2132, #283580);
+    color: white;
+}
+
+th, td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0f7fa;
+    transition: 0.3s;
+}
+
+/* Lista de destaques */
+.hits-destaque {
+    max-width: 85%;
+    margin: 40px auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.07);
+}
+
+.hits-destaque h3 {
+    color: #3f51b5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hits-destaque ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.hits-destaque li {
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #303c80;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

@@ -1,0 +1,90 @@
+body {
+    background-color: #f9f9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #3a62d7, #ba68c8);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu-site {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px 0;
+    background-color: #f3e5f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.menu-site a {
+    text-decoration: none;
+    background-color: #9c27b0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.menu-site a:hover {
+    background-color: #2010ff;
+    transform: scale(1.05);
+}
+
+main {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #141972;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.form-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.form-contato label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-contato button {
+    background-color: #2d10ac;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
